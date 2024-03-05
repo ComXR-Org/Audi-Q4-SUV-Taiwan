@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chrome Exterior Black
+  m_Shader: {fileID: 4800000, guid: 317eeae3d1aa8ae4fb982bb2a2ac0a87, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 2b31b8538e5603f4b94a45e390bca5dc, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecTex:
+        m_Texture: {fileID: 2800000, guid: 0ad23f3a49575fd4599587c3d1b3629f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlakeTex:
+        m_Texture: {fileID: 2800000, guid: 021628e0f5e8ad546b7b6fa3e116e0f6, type: 3}
+        m_Scale: {x: 30, y: 20}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DecAmt: 1
+    - _FlakeAmt: 1
+    - _FresAmt: 1.25
+    - _RimAmt: 4.42
+    - _RimPwr: 9.33
+    - _Shininess: 3.03
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.02, g: 0.02, b: 0.02, a: 1}
