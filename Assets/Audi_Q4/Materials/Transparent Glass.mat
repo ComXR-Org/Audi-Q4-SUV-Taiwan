@@ -26,7 +26,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cube:
-        m_Texture: {fileID: 8900000, guid: a707efb23bcf34f47a386462d17474d8, type: 3}
+        m_Texture: {fileID: 8900000, guid: 93698771d73b08040a672a84eccd63dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -72,7 +72,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _CubeIntensity: 0.2
+    - _CubeIntensity: 0.27
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -80,7 +80,7 @@ Material:
     - _EnableFlakes: 0
     - _EnableRim: 0
     - _FlakesIntensity: 0.2
-    - _Fresnel: 0.34
+    - _Fresnel: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -99,7 +99,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0.24705882}
-    - _CubeTint: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeTint: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlakesTint: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
