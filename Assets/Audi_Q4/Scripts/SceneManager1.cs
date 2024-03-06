@@ -8,7 +8,7 @@ public class SceneManager1 : MonoBehaviour
     void Start()
     {
 
-        SceneManager.LoadScene("Q4 environment_v2", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Q4 environment_v2(MeshBaked)", LoadSceneMode.Additive);
     }
 
     // Update is called once per frame
