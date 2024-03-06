@@ -73,7 +73,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _CubeIntensity: 0.216
+    - _CubeIntensity: 0.093
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
@@ -81,7 +81,7 @@ Material:
     - _EnableFlakes: 0
     - _EnableRim: 0
     - _FlakesIntensity: 0.2
-    - _Fresnel: 4
+    - _Fresnel: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.966
     - _GlossyReflections: 1
@@ -100,7 +100,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 0.525, g: 0, b: 0, a: 0.13333334}
-    - _CubeTint: {r: 1, g: 1, b: 1, a: 1}
+    - _CubeTint: {r: 0.6509434, g: 0.5557583, b: 0.5557583, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FlakesTint: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
