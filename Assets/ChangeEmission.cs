@@ -13,8 +13,8 @@ public class ChangeEmission : MonoBehaviour
 
     void Start()
     {
-        Button button = GetComponent<Button>();
-        button.onClick.AddListener(ChangeMaterialAndEmission);
+        //Button button = GetComponent<Button>();
+        //button.onClick.AddListener(ChangeMaterialAndEmission);
     }
 
    public void ChangeMaterialAndEmission()

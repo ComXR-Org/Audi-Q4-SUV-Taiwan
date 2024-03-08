@@ -12,6 +12,7 @@ Material:
   m_ValidKeywords:
   - _ALPHABLEND_ON
   - _NORMALMAP
+  - _SPECULARHIGHLIGHTS_OFF
   m_InvalidKeywords:
   - _DISABLE_DBUFFER
   - _DISABLE_DECALS
@@ -279,7 +280,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
-    - _SpecularHighlights: 1
+    - _SpecularHighlights: 0
     - _SpecularPower: 0
     - _SrcBlend: 5
     - _StencilRef: 2
