@@ -131,7 +131,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.13207546, g: 0.13207546, b: 0.13207546, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.13207543, g: 0.13207543, b: 0.13207543, a: 1}
     - _CubeTint: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 63.999992, g: 15.04726, b: 0, a: 1}
     - _FlakesTint: {r: 1, g: 1, b: 1, a: 1}
