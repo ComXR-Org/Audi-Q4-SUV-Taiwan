@@ -1,20 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering.PostProcessing;
+//using UnityEngine.Rendering.PostProcessing;
 public class COMXR_Settings : MonoBehaviour
 {
     
     public bool toggleHDR = false;
     [SerializeField] bool hdrStatus = false, myToggle = true;
     [SerializeField] Camera cam;
-    [SerializeField] PostProcessLayer ppl;
+    //[SerializeField] PostProcessLayer ppl;
     // Start is called before the first frame update
     void Start()
     {
         cam = Camera.main.gameObject.GetComponent<Camera>();
    //     cam = GetComponent<Camera>();
-        ppl = cam.GetComponent<PostProcessLayer>();
+        //ppl = cam.GetComponent<PostProcessLayer>();
     }
 
     // Update is called once per frame
@@ -46,10 +46,10 @@ public class COMXR_Settings : MonoBehaviour
        
         if(!cam)
            cam = Camera.main;
-        ppl.enabled = false;
+        //ppl.enabled = false;
         cam.allowHDR = b;
         cam.allowMSAA = !b;
-        ppl.enabled = true;
+        //ppl.enabled = true;
       ///  hdrStatus = cam.allowHDR;
         Debug.Log("HDR : " + Camera.main.name);
     }

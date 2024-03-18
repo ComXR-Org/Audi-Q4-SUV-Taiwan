@@ -2,14 +2,14 @@
 using System.Collections;
 using UnityEngine.XR;
 using UnityEngine.UI;
-using UnityEngine.Rendering.PostProcessing;
+//using UnityEngine.Rendering.PostProcessing;
 namespace VRStandardAssets.Examples
 {
     public class ExampleRenderScale : MonoBehaviour
     {
         
         [SerializeField] private float m_RenderScale = 1f;
-        PostProcessLayer ppl;
+        //PostProcessLayer ppl;
         //The render scale. Higher numbers = better quality, but trades performance
 
    
@@ -17,21 +17,21 @@ namespace VRStandardAssets.Examples
         void Start()
         {
             XRSettings.eyeTextureResolutionScale = m_RenderScale;
-            ppl = GetComponent<PostProcessLayer>();
+            //ppl = GetComponent<PostProcessLayer>();
 
             
         }
         public void SetFXAA()
         {
-            ppl.antialiasingMode = PostProcessLayer.Antialiasing.FastApproximateAntialiasing;
+            //ppl.antialiasingMode = PostProcessLayer.Antialiasing.FastApproximateAntialiasing;
         }
         public void SetAAToNone()
         {
-            ppl.antialiasingMode = PostProcessLayer.Antialiasing.None;
+            //ppl.antialiasingMode = PostProcessLayer.Antialiasing.None;
         }
         public void SetTXAA()
         {
-            ppl.antialiasingMode = PostProcessLayer.Antialiasing.TemporalAntialiasing;
+            //ppl.antialiasingMode = PostProcessLayer.Antialiasing.TemporalAntialiasing;
         }
         public void SetRenderScale(float quality)
         {
