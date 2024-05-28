@@ -35,12 +35,14 @@ public class ToggleWithButton : MonoBehaviour
     IEnumerator EnableObjectWithDelay()
     {
         yield return new WaitForSeconds(enableDelay);
-        targetObject.SetActive(true);
+        if (!targetObject.activeInHierarchy)
+            targetObject.SetActive(true);
     }
 
     IEnumerator DisableObjectWithDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        targetObject.SetActive(false);
+        if (targetObject.activeInHierarchy)
+            targetObject.SetActive(false);
     }
 }

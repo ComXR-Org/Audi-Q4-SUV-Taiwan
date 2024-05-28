@@ -31,11 +31,16 @@ public class videoPlayerMultiple : MonoBehaviour
 
     [Header("Emission color settings")]
     public Renderer[] emissiveRenderer;
+
+
     public Material headlightMat;
     public Material defaultHeadlightMat;
     public float colorChangeDelay;
     [ColorUsageAttribute(true, true, 0f, 8f, 0.125f, 3f)]
     public Color color1, color2;
+
+    public Renderer[] tailgateAllRenderers;
+    public Material emissiveOffmat;
 
     void Start()
     {
@@ -53,6 +58,14 @@ public class videoPlayerMultiple : MonoBehaviour
         foreach(Renderer r in emissiveRenderer)
         {
             r.material = headlightMat;
+        }
+    }
+
+    public void ChangeAllTailgateRendMat()
+    {
+        foreach (Renderer r in emissiveRenderer)
+        {
+            r.material = emissiveOffmat;
         }
     }
     public void DefaultMatChange()
